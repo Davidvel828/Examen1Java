@@ -14,7 +14,7 @@ public class CuentaBanco {
         this.nombre = nombre;
         this.banco = banco;
         this.saldo = saldo;
-    }
+     }
 
     public void depositar(float dinero) {
         float saldoActualizado = 0;
