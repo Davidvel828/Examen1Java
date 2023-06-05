@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class CuentaBancoActivity extends AppCompatActivity {
-    // DeclaraciÃ³n de variables
+
     private TextView lblNombreBanco;
     private TextView lblNombreCliente;
     private TextView lblSaldo;
@@ -49,7 +49,7 @@ public class CuentaBancoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 retirar();
-            }
+              }
         });
         btnRegresar.setOnClickListener(new View.OnClickListener() {
             @Override
