@@ -3,22 +3,24 @@ package com.example.examen1java;
 import android.widget.Toast;
 
 public class CuentaBanco {
-    // DeclaraciÃ³n de variables de clase
     private int numCuenta;
     private String nombre;
     private String banco;
-    private float saldo;
+    public float saldo;
+
 
     public CuentaBanco(int numCuenta, String nombre, String banco, float saldo) {
         this.numCuenta = numCuenta;
         this.nombre = nombre;
         this.banco = banco;
         this.saldo = saldo;
-     }
+    }
 
-    public void depositar(float dinero) {
-        float saldoActualizado = 0;
-        this.saldo = this.saldo + dinero;
+    public float depositar(float dinero) { // 8000
+        float saldoActualizado = 0; //0
+        saldoActualizado = this.saldo + dinero; //0 + 8000
+        return saldoActualizado; // 8000
+
     }
 
     public boolean retirar(float dinero) {
@@ -30,3 +32,4 @@ public class CuentaBanco {
         return bandera;
     }
 }
+
