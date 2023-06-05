@@ -21,7 +21,7 @@ public class CuentaBanco {
         saldoActualizado = this.saldo + dinero; //0 + 8000
         return saldoActualizado; // 8000
 
-    }
+      }
 
     public boolean retirar(float dinero) {
         boolean bandera = true;
